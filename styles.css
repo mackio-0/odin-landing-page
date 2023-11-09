@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #f9faf8;
+  --secondary: #e5e7eb;
+  --background-color: #1f2937;
+}
+
+body {
+  font-family: Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.header-container {
+  padding: 10px 0;
+  background-color: var(--background-color);
+  color: var(--main);
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--secondary);
+  margin-left: 20px;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+  color: #3882f6;
+}
+
+.hero-container {
+  background-color: var(--background-color);
+  color: var(--main);
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.hero {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info {
+  width: 50%;
+}
+
+.hero-info-main {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--main);
+}
+
+.hero-info-secondary {
+  font-size: 18px;
+  color: var(--secondary);
+  margin: 7px 0 14px 0;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: var(--main);
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero-img img {
+  width: 500px;
+  /* height: 100%; */
+}
