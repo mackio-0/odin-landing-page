@@ -1,4 +1,3 @@
 #excluding the sample expected images
 
-!/01.png
-!/02.png
+*.png
