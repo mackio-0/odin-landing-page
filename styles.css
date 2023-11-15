@@ -14,7 +14,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 .header-container {
@@ -207,8 +207,20 @@ body {
 .signup-btn button {
   color: #f9faf8;
   padding: 10px 30px;
-  border: 2px solid #f9f9f9;
+  border: 2px solid #f9faf8;
   border-radius: 8px;
   background-color: transparent;
   font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: var(--background-color);
+}
+
+.footer-container p {
+  color: #f9faf8;
 }
