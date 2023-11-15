@@ -14,7 +14,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  height: 1500px;
+  height: 2000px;
 }
 
 .header-container {
@@ -135,7 +135,7 @@ body {
   width: 150px;
   height: 150px;
   border: 3px solid #3882f6;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .info-image-text {
@@ -176,4 +176,39 @@ body {
   font-weight: bold;
   margin-top: 10px;
   align-self: flex-end;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 150px;
+  margin: 100px 0;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+}
+
+.signup-text {
+  color: #f9faf8;
+}
+
+.signup-text p {
+  margin-top: 5px;
+}
+
+.signup-btn button {
+  color: #f9faf8;
+  padding: 10px 30px;
+  border: 2px solid #f9f9f9;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: bold;
 }
